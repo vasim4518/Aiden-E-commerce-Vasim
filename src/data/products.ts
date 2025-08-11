@@ -21,9 +21,9 @@ export const products: Product[] = [
   {
     id: "1",
     name: "Aiden AI Polo T-Shirt",
-    price: 349,
-    originalPrice: 399,
-    discount: 15,
+    price: 599,
+    originalPrice: 999,
+    discount: 40,
     // image: tshirtVideo,
     image: tshirtImage,
     description: "Premium cotton polo t-shirt with embroidered Aiden AI logo. Comfortable and professional for office wear.",
@@ -50,9 +50,9 @@ export const products: Product[] = [
   {
     id: "4",
     name: "Aiden AI Premium Pen",
-    price: 149,
-    originalPrice: 179,
-    discount: 17,
+    price: 49,
+    originalPrice: 99,
+    discount: 50,
     image: penImage,
     description: "Elegant business pen with engraved Aiden AI logo. Perfect for meetings and professional use.",
     category: "Office"
@@ -60,7 +60,7 @@ export const products: Product[] = [
   {
     id: "5",
     name: "Aiden AI Executive Diary",
-    price: 449,
+    price: 199,
     image: diaryImage,
     description: "Premium leather-bound diary with gold embossed Aiden AI logo. Perfect for planning and note-taking.",
     category: "Office"
@@ -68,9 +68,9 @@ export const products: Product[] = [
   {
     id: "6",
     name: "Aiden AI Wireless Headphones",
-    price: 1299,
-    originalPrice: 1499,
-    discount: 13,
+    price: 799,
+    originalPrice: 999,
+    discount: 20,
     image: headphonesImage,
     description: "High-quality wireless headphones with Aiden AI branding. Premium sound quality for work and leisure.",
     category: "Tech"
