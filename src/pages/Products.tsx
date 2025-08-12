@@ -57,13 +57,8 @@ const Products = () => {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-64 object-cover rounded-t-lg"
+                    className="w-full h-96 object-cover rounded-t-lg"
                   />
-                  {/* <video  src={product.image} playsInline ></video> */}
-                  {/* <video width="320" height="240" playsInline >
-                    <source src={product.image} type="video/mp4"></source>
-                        Your browser does not support the video tag.
-                      </video> */}
                       {product.discount && (
                         <Badge className="absolute top-2 right-2 bg-gradient-accent">
                           {product.discount}% OFF

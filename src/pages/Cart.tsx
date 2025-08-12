@@ -27,7 +27,7 @@ const Cart = () => {
   const [customerEmail, setCustomerEmail] = useState("");
   const [customerPhone, setCustomerPhone] = useState("");
   const [customerAddress, setCustomerAddress] = useState("");
-  const [selectedAddressOption, setSelectedAddressOption] = useState("pune"); // default
+  const [selectedAddressOption, setSelectedAddressOption] = useState(""); // default
 
 
   const handleQuantityChange = (productId: string, newQuantity: number) => {

@@ -1,9 +1,13 @@
-import tshirtImage from "@/assets/tshirt-aiden.jpg";
-import tshirtVideo from "@/assets/Aiden AI T- Shirt.mp4";
-import capImage from "@/assets/cap-aiden.jpg";
+// import tshirtImage from "@/assets/tshirt-aiden.jpg";
+import tshirtImage from "@/assets/Aiden AI T- Shirt.png";
+// import capImage from "@/assets/cap-aiden.jpg";
+import capImage from "@/assets/Aiden AI Baseball Cap.png";
+
 import bottleImage from "@/assets/bottle-aiden.jpg";
-import penImage from "@/assets/pen-aiden.jpg";
-import diaryImage from "@/assets/diary-aiden.jpg";
+// import penImage from "@/assets/pen-aiden.jpg";
+import penImage from "@/assets/Aiden AI Pen.png";
+// import diaryImage from "@/assets/diary-aiden.jpg";
+import diaryImage from "@/assets/AidenAI Diary.jpg";
 import headphonesImage from "@/assets/headphones-aiden.jpg";
 
 export interface Product {
