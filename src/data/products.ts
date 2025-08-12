@@ -3,7 +3,9 @@ import tshirtImage from "@/assets/Aiden AI T- Shirt.png";
 // import capImage from "@/assets/cap-aiden.jpg";
 import capImage from "@/assets/Aiden AI Baseball Cap.png";
 
-import bottleImage from "@/assets/bottle-aiden.jpg";
+// import bottleImage from "@/assets/bottle-aiden.jpg";
+// import bottleImage from "@/assets/Aiden AI Bottle.png";
+import bottleImage from "@/assets/bottle1536.jpg";
 // import penImage from "@/assets/pen-aiden.jpg";
 import penImage from "@/assets/Aiden AI Pen.png";
 // import diaryImage from "@/assets/diary-aiden.jpg";
