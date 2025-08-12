@@ -1,16 +1,9 @@
-// import tshirtImage from "@/assets/tshirt-aiden.jpg";
-import tshirtImage from "@/assets/Aiden AI T- Shirt.png";
-// import capImage from "@/assets/cap-aiden.jpg";
+import tshirtImage from "@/assets/Tshirt1300 1.jpg";
 import capImage from "@/assets/Aiden AI Baseball Cap.png";
-
-// import bottleImage from "@/assets/bottle-aiden.jpg";
-// import bottleImage from "@/assets/Aiden AI Bottle.png";
 import bottleImage from "@/assets/bottle1536.jpg";
-// import penImage from "@/assets/pen-aiden.jpg";
 import penImage from "@/assets/Aiden AI Pen.png";
-// import diaryImage from "@/assets/diary-aiden.jpg";
 import diaryImage from "@/assets/AidenAI Diary.jpg";
-import headphonesImage from "@/assets/headphones-aiden.jpg";
+import headphonesImage from "@/assets/headphones 2.jpg";
 
 export interface Product {
   id: string;
@@ -38,9 +31,9 @@ export const products: Product[] = [
   {
     id: "2",
     name: "Aiden AI Baseball Cap",
-    price: 199,
-    originalPrice: 249,
-    discount: 20,
+    price: 299,
+    originalPrice: 399,
+    discount: 25,
     image: capImage,
     description: "Stylish black baseball cap with Aiden AI logo. Perfect for casual outings and team events.",
     category: "Accessories"
@@ -56,9 +49,9 @@ export const products: Product[] = [
   {
     id: "4",
     name: "Aiden AI Premium Pen",
-    price: 49,
-    originalPrice: 99,
-    discount: 50,
+    price: 149,
+    originalPrice: 199,
+    discount: 25,
     image: penImage,
     description: "Elegant business pen with engraved Aiden AI logo. Perfect for meetings and professional use.",
     category: "Office"
@@ -73,12 +66,12 @@ export const products: Product[] = [
   },
   {
     id: "6",
-    name: "Aiden AI Wireless Headphones",
+    name: "Aiden AI Wired Headphones",
     price: 799,
     originalPrice: 999,
     discount: 20,
     image: headphonesImage,
-    description: "High-quality wireless headphones with Aiden AI branding. Premium sound quality for work and leisure.",
+    description: "High-quality wired headphones with Aiden AI branding. Premium sound quality for work and leisure.",
     category: "Tech"
   }
 ];

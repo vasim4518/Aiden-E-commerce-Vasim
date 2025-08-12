@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useCart } from "@/hooks/useCart";
 
+
 const Navigation = () => {
   const location = useLocation();
   const { getTotalItems } = useCart();
@@ -21,7 +22,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold text-foreground">
-              aiden ai
+              <img src="src/assets/aiden-logo.png" />
             </div>
           </Link>
 

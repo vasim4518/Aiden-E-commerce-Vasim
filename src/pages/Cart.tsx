@@ -58,7 +58,7 @@ const Cart = () => {
       order_id: orderId,
       order_date: orderDate,
       shipping: 0,
-      tax: Math.round(getTotalPrice() * 0.18).toLocaleString(),
+      tax: Math.round(getTotalPrice() * 0.05).toLocaleString(),
       total: totalPrice,
       items: items,
     };
@@ -172,7 +172,7 @@ const Cart = () => {
 
                 <div className="flex justify-between">
                   <span>Tax</span>
-                  <span>₹{Math.round(getTotalPrice() * 0.18).toLocaleString()}</span>
+                  <span>₹{Math.round(getTotalPrice() * 0.05).toLocaleString()}</span>
                 </div>
 
                 <Separator />
